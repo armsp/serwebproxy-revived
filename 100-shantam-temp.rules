@@ -1,3 +1,0 @@
-# Sparkfun Pro-Micro
-# idVendor=1b4f idProduct=9204
-SUBSYSTEM=="tty", ATTRS{idVendor}=="1b4f", ATTRS{idProduct}=="9204", SYMLINK+="ttyS00"

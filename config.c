@@ -23,7 +23,7 @@ cfg_item_i cfg_int_defs[CFG_IEND] = {
 	{"comm_port", 30},
 	{"net_port", 5331},
 	{"timeout", 300},
-	{"net_protocol", 1}
+	{"net_protocol", 2}
 };
 
 cfg_item_s cfg_str_defs[CFG_SEND] = {

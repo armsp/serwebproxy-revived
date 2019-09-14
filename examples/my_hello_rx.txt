@@ -30,6 +30,7 @@ void setup()
 void loop()
 {
   char buffer[20];
+  char copy_buffer[20];
   //Serial.println(sizeof(compare));//
   //Serial.println(sizeof(buffer));
   int show_flag = 0;
@@ -82,11 +83,15 @@ void loop()
       TXLED0;
       delay(250);
     }
-    while(*(buffer+i) != '\0'){
-      Serial.print(*(buffer+i));
-      i+=1;
-    }
-    //Serial.println(" ");
+//    while(*(buffer+i) != '\0'){
+//      Serial.print(*(buffer+i));
+//      //copy_buffer[i] = *(buffer+i);
+//      i+=1;
+//    }
+    delay(5000);
+    //copy_buffer[i] = '\0';
+    Serial.print("Got: ");
+    Serial.println(buffer);
     show_flag = 0;
   }
  //Serial.println("Hello world");  // Print "Hello World" to the Serial Monitor
