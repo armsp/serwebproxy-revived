@@ -1,5 +1,7 @@
-# **serwebproxy revived**
+# **serwebproxy-revived**
 
+_serwebproxy 1.12 by : Lari Temmes (lari.temmes@gmail.com)_,
+_Original author of serproxy 0.1.2 : Stefano Busti (sbusti@nildram.co.uk)_
 
 * Checked only on Linux for now.
 * Read README (the other file, not this REAMDME.md) to get an idea on what it is and does.
